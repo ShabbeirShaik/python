@@ -6,3 +6,5 @@ main_book=json.loads(s)
 print(type(main_book))
 print(main_book['sajid'])
 print(main_book['sajid']['phone'])
+for person in main_book:
+  print(main_book[person])
